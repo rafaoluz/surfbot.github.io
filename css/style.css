@@ -1,0 +1,835 @@
+body {
+    font-family: Nunito;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* MENU - INFORMAÇÕES */ 
+
+.header_info {
+    background-color: #1188ee;
+    padding: 10px 0;
+}
+
+.header_info p {
+    font-size: 1em;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-family: nunito;
+}
+
+/* MENU */ 
+
+/* LOGO */ 
+
+.header_logo {
+    position: relative;
+    top:25px;
+}
+
+.header {
+    width: 100%;
+    background-color: #000;
+    position: fixed;
+    z-index: 10;
+    height: 130px;
+}
+
+.header_menu {
+    text-align: right;
+}
+
+.header_menu ul li {
+    display: inline-block;
+    margin-top: 35px;
+    margin-left: 25px;
+}
+
+.header_menu ul li a {
+    color: #fff;
+    letter-spacing: .1em;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+.header_menu ul li a:hover {
+    color: #66ccff;
+}
+
+.header_menu ul li:last-child::after {
+    content: "";
+    display: block;
+    background-color: #ee2311;
+    width: 120px;
+    height: 3px;
+    margin: 1px auto 10px 0px;
+}
+
+/* INTRODUÇÂO */ 
+
+.introducao {
+    width: 100%;
+    height: 380px;
+    background: url("/img/bg-intro.jpg") no-repeat center;
+    background-size: cover;
+    position: absolute;
+    top: 130px;
+    z-index: 5;
+}
+
+.introducao .subtitulo {
+    font-family: Alice;
+    font-size: 60px;
+    color: #fff;
+    padding-top: 250px
+}
+
+.introducao .matricula input {
+    display: block;
+    width: 195px;
+    height: 45px;
+    border-radius: 5px 0 5px 0;
+    border: none;
+    font-size: 14px;
+    font-style: italic;
+    padding-left: 5px;
+    margin-top: 263px;
+    margin-left: 130px;
+}
+
+.introducao .btn_introducao {
+    background-color: #ee2311;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    padding: 11px 25px;
+    border-radius: 0px 5px 5px 0px;
+    margin-left: 315px;
+    position: relative;
+    top:-32px
+
+}
+
+.introducao .btn_introducao:hover {
+color: #000;
+background-color: #1188ee;
+}
+
+/* HOME */ 
+
+.portfolio {
+    padding-top: 550px;
+}
+
+/* IMAGEM PRINCIPAL */ 
+
+.images .img_principal img {
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px rgba(195,207,212,0.2);
+}
+
+/* MAPA */
+
+.images .img_mapa img {
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px rgba(195,207,212,0.2);
+    width: 430px;
+    margin-left: 15px;
+    margin-top: -30px;
+}
+
+/* DESCRIÇÃO */ 
+
+.descricao ul li {
+    padding: 13px 0;
+    margin: 11px 0px 10px 15px;
+}
+
+/* DESCRIÇÃO - SOBRE */
+
+.sobre {
+    margin-top: -160px;
+}
+
+.sobre ul li {
+    margin-left: 30px;
+    color: #63717d;
+    letter-spacing: .1em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.sobre span {
+    font-weight: bold;
+    color: #000;
+    letter-spacing: 0.08em;
+}
+
+/* INFORMAÇÂO - PRAIA */ 
+
+.informacao_praia {
+    padding-top: 535px;
+}
+
+.informacao_praia h2 {
+    font-family: Alice;
+    font-size: 72px;    
+}
+
+.informacao_praia span {
+    color: #1188ee;
+}
+
+.informacao_praia h2::after {
+    content: "";
+    display: block;
+    width: 440px;
+    height: 4px;
+    background-color: #dae7f2;
+    margin: 40px 0 0 0;
+}
+
+.descricao_praia {
+    margin: 40px 0;
+}
+
+.descricao_images li img {
+    margin: 45px 0;
+}
+
+.descricao_images li::after {
+    content: "";
+    display: block;
+    width: 440px;
+    height: 4px;
+    background-color: #dae7f2;
+    margin: 30px 0 0 0;
+}
+
+.itens {
+    position:relative;
+    font-size: 24px;
+    text-align: center;
+    line-height: 155px;
+    letter-spacing: 0.08em;
+    margin-top: -470px;
+}
+
+.informacao_praia .resumo {
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: .1em;
+    color: #45525e;
+}
+
+/* AULAS */ 
+
+.aulas {
+    background-color: #eff4f9;
+    margin-top: 70px;
+    width: 100%;
+    height:800px;
+}
+
+.aulas img {
+    position: relative;
+    top: -43px;
+    margin-left: 370px;
+}
+
+.aulas .subtitulo {
+    font-family: Alice;
+    font-size: 72px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+/* AULAS INFANTIL */ 
+
+.aulas_infantil {
+    background-color: #dcdcdc;
+    border-radius: 5px;
+    border: 1px solid #c3cfd9;
+    box-shadow: 0px 10px 10px rgba(69,82,94, 0.3);
+    height:450px;
+}
+
+.aulas_infantil .img_infantil {
+    padding-top: 22px;
+    margin-left: 130px;
+}
+
+.aulas_infantil .titulo {
+    text-align: center;
+}
+
+.aulas_infantil span {
+    font-family: Nunito;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #45525e;
+    letter-spacing: 0.05em;  
+    text-align: center;
+}
+
+.aulas_infantil span:after {
+    content: "";
+	display: block;
+	width: 260px; 
+	height: 4px; 
+    background: #D3D3D3;
+    margin: 15px auto;
+}
+
+.aulas_infantil .lista {
+    font-family: nunito;
+    line-height: 35px;
+    padding-left: 60px;
+}
+
+.aulas_infantil li:nth-child(5):after {
+    content: "";
+	display: block;
+	width: 260px; 
+	height: 4px; 
+    background: #D3D3D3;
+    margin: 15px 0 20px -40px;
+}
+
+.aulas_infantil li:nth-child(6) {
+    font-weight: bold;
+    font-size: 20px;
+    color: #1188ee;
+}
+
+.aulas_infantil .elipse  {
+    position: relative;
+    padding-top: 27px;
+    top:-228px;
+    left: -340px;
+}
+
+.aulas_infantil .btn_infantil {
+    background-color: #2d3740;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 20px;
+    letter-spacing: .1em;
+    padding: 11px 25px;
+    border-radius: 5px;
+    border: 1px solid #707070;
+    margin-left: 40px;
+    cursor: pointer;
+    z-index: 5;
+    position: relative;
+    top:-100px;
+
+}
+
+.aulas_infantil .btn_infantil:hover {
+    color: #000;
+    background: #1188ee;
+}
+
+/* AULAS ADULTO */
+
+.aulas_adulto {
+    background-color: #dcdcdc;
+    border-radius: 5px;
+    border: 1px solid #c3cfd9;
+    box-shadow: 0px 10px 10px rgba(69,82,94, 0.3);
+    height:450px;
+}
+
+.aulas_adulto .img_adulto {
+    padding-top: 22px;
+    margin-left: 130px;
+}
+
+.aulas_adulto .titulo {
+    text-align: center;
+}
+
+.aulas_adulto span {
+    font-family: Nunito;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #45525e;
+    letter-spacing: 0.05em;  
+    text-align: center;
+}
+
+.aulas_adulto span:after {
+    content: "";
+	display: block;
+	width: 260px; 
+	height: 4px; 
+    background: #D3D3D3;
+    margin: 15px auto;
+}
+
+.aulas_adulto .lista {
+    font-family: nunito;
+    line-height: 35px;
+    padding-left: 60px;
+}
+
+.aulas_adulto li:nth-child(5):after {
+    content: "";
+	display: block;
+	width: 260px; 
+	height: 4px; 
+    background: #D3D3D3;
+    margin: 15px 0 20px -40px;
+}
+
+.aulas_adulto li:nth-child(6) {
+    font-weight: bold;
+    font-size: 20px;
+    color: #1188ee;
+}
+
+.aulas_adulto .elipse  {
+    position: relative;
+    padding-top: 27px;
+    top:-228px;
+    left: -340px;
+}
+
+.aulas_adulto .btn_adulto {
+    background-color: #2d3740;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 20px;
+    letter-spacing: .1em;
+    padding: 11px 25px;
+    border-radius: 5px;
+    border: 1px solid #707070;
+    margin-left: 40px;
+    cursor: pointer;
+    z-index: 5;
+    position: relative;
+    top:-100px;
+
+}
+
+.aulas_adulto .btn_adulto:hover {
+    color: #000;
+    background: #1188ee;
+}
+
+/* AULAS PROFISSIONAL */
+
+.aulas_profissional {
+    background-color: #dcdcdc;
+    border-radius: 5px;
+    border: 1px solid #c3cfd9;
+    box-shadow: 0px 10px 10px rgba(69,82,94, 0.3);
+    height:450px;
+}
+
+.aulas_profissional .img_profissional {
+    padding-top: 22px;
+    margin-left: 115px;
+}
+
+.aulas_profissional .titulo {
+    text-align: center;
+}
+
+.aulas_profissional span {
+    font-family: Nunito;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #45525e;
+    letter-spacing: 0.05em;  
+    text-align: center;
+}
+
+.aulas_profissional span:after {
+    content: "";
+	display: block;
+	width: 260px; 
+	height: 4px; 
+    background: #D3D3D3;
+    margin: 15px auto;
+}
+
+.aulas_profissional .lista {
+    font-family: nunito;
+    line-height: 35px;
+    padding-left: 60px;
+}
+
+.aulas_profissional li:nth-child(5):after {
+    content: "";
+	display: block;
+	width: 260px; 
+	height: 4px; 
+    background: #D3D3D3;
+    margin: 15px 0 20px -40px;
+}
+
+.aulas_profissional li:nth-child(6) {
+    font-weight: bold;
+    font-size: 20px;
+    color: #1188ee;
+}
+
+.aulas_profissional .elipse  {
+    position: relative;
+    padding-top: 27px;
+    top:-228px;
+    left: -340px;
+}
+
+.aulas_profissional .btn_profissional {
+    background-color: #2d3740;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 20px;
+    letter-spacing: .1em;
+    padding: 11px 25px;
+    border-radius: 5px;
+    border: 1px solid #707070;
+    margin-left: 40px;
+    cursor: pointer;
+    z-index: 5;
+    position: relative;
+    top:-100px;
+}
+
+.aulas_profissional .btn_profissional:hover {
+    color: #000;
+    background: #1188ee;
+}
+
+
+/* AULAS AVISO */ 
+
+.aulas .aviso {
+    font-family: Nunito;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.aulas .aviso span {
+    color:#ee2311;
+}
+
+.aulas .aviso:after {
+    content: "";
+	display: block;
+	width: 103px; 
+	height: 4px; 
+    background: #ee2311;
+    margin-top: 3px;
+    margin-left: 772px;
+}
+
+.quote {
+    width: 100%;
+    background: url("/img/foto-quote@2x.jpg") no-repeat center;
+    background-size: cover;
+    height: 600px;
+    text-align: center;
+}
+
+.quote_externo h2 {
+    color: #fff;
+    font-family: Alice;
+    font-weight: normal;
+    font-size: 72px;
+    text-align: center;
+    padding-bottom: 80px;
+    padding-top: 150px;
+}
+
+.quote_externo h2:after {
+    content: "";
+    display: block;
+    width: 100px; 
+    height: 3px; 
+    background-color: #fff; 
+    margin: 21px auto 11px auto;
+    letter-spacing: .1em;
+    font-weight: bold;
+}
+
+.quote_externo cite {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 0.08em;
+    color: #fff;
+}
+
+/* CONTATO */ 
+
+.contato h2 {
+    font-family: Alice;
+    font-size: 72px;
+    text-align:center;
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+
+.contato .divisa {
+    position: relative;
+    top: 30px;
+    margin: 0 auto;
+    height: 500px;
+}
+
+.contato_form {
+    padding-top: 50px;
+    margin-top: -500px;
+}
+
+.contato_form label {
+    display: block;
+    font-family: nunito;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 4px;
+}
+
+.contato_form input {
+    display: block;
+    width: 370px;
+    height:40px;
+    border-radius: 5px;
+    background-color: #eff4f9;
+    border: 1px solid #45525e;
+    font-size: 14px;
+    margin-bottom:30px;
+}
+
+.contato_form textarea { 
+    display: block;
+    width: 370px;
+    height: 150px;
+    border-radius: 5px;
+    background-color: #eff4f9;
+    border: 1px solid #45525e;  
+    margin-bottom: 50px;
+
+}
+
+.contato_form .btn_enviar {
+    width: 266px;
+    height: 50px;
+    background: #2d3740;
+    border-radius: 5px;
+    border: 1px solid #707070;
+    color: #fff;
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.contato_form .btn_enviar:hover {
+    color: #000;
+    background-color: #1188ee;
+}
+
+
+.contato_dados {
+    padding-top: 40px;
+    margin-top: -500px;
+}
+
+.contato_dados ul li {
+    font-size: 18px;
+    font-family: Nunito;
+    padding: 2px 0 2px 0;
+    margin-bottom: 10px;
+}
+
+.contato_dados span {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.endereco_contato li:nth-child(1) {
+    font-weight: bold;
+    line-height: 32px;
+    font-size: 24px;
+    padding-bottom: 5px;  
+    color: #707070;
+}
+
+.endereco_contato  li:nth-child(6){
+    position: relative;
+    top:-175px;
+    left: -25px;   
+}
+
+.endereco_contato  li:nth-child(7){
+    position: relative;
+    top:-59px;
+    left: 135px;   
+}
+
+
+.endereco_contato  li:nth-child(7)::after {
+    content: "";
+    display: block; 
+    width: 260px; 
+    height: 4px; 
+    background-color: #e4e4e4;
+    margin-left: -135px;
+    margin-top: 15px;
+}
+
+.email_contato {
+    margin-top: -50px;
+}
+
+.email_contato li:nth-child(1) {
+    font-weight: bold;
+    line-height: 32px;
+    font-size: 24px;
+    padding-bottom: 5px;  
+    color: #707070;
+}
+
+.email_contato  li:nth-child(3)::after{
+    content: "";
+    display: block; 
+    width: 260px; 
+    height: 4px; 
+    background-color: #e4e4e4;
+    margin-top: 15px;
+}
+
+
+.email_contato  li:nth-child(4){
+    position: relative;
+    top:-125px;
+    left: -25px;   
+}
+
+
+.horario_contato {
+    margin-top: -10px;
+}
+
+.horario_contato li:nth-child(1) {
+    font-weight: bold;
+    line-height: 32px;
+    font-size: 24px;
+    padding-bottom: 5px;  
+    color: #707070;
+}
+
+.horario_contato  li:nth-child(4){
+    position: relative;
+    top:-107px;
+    left: -25px;   
+}
+
+/* FOOTER */ 
+
+.footer {
+    background-color: #1188ee;
+    padding: 5px 0;
+    margin-top: 35px;
+}
+
+.footer h2 {
+    font-size: 18px;
+    font-family: Nunito;
+    font-weight: bold;
+    color: #fff;
+    padding-top:50px;
+
+}
+
+.footer img {
+    position: relative;
+    top:-30px;
+    left:910px;
+}
+
+/* JavaScript */
+
+/* Data Slide */ 
+
+[data-slide] {
+    position: relative;
+}
+  [data-slide] > * {
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+}
+[data-slide] > .active {
+    position: relative;
+    opacity: 1;
+    transition: opacity 500ms;
+}
+
+[data-slide-nav] {
+    display: block;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+[data-slide-nav] button {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 4px;
+    border: none;
+    border-radius: 6px;
+    background: #45525e;
+    text-indent: -100px;
+    overflow: hidden;
+    top: -50px;
+    position: relative;
+    cursor: pointer;
+}
+
+[data-slide-nav] > button.active {
+    background: #1188ee;
+}
+
+
+/* Data Anime */ 
+
+.js [data-anime] {
+    opacity: 0;
+}
+
+.js  .fadeInDown {
+    transform: translate3d(0,-20px,0);
+}
+
+.js  .anime {
+    opacity: 1;
+    transform: none;
+    transition:  opacity .8s, transform .8s;
+}
+

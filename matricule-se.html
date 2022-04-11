@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <!-- Titúlo da Página-->
+
+    <title>Surfbot - Matricule-Se </title>
+
+    <!-- Fecha Título -->
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/grid.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/matricule-se.css">
+
+    <!--Adicionando JavaScript-->
+
+    <script>document.documentElement.classList.add("js");</script>
+
+    <!-- Fecha JavaScript -->
+
+</head>
+<body>
+
+    <!-- Header -->
+
+    <header class="header">
+        <div class="header_info fadeIndown" data-anime="500">
+            <p>Aulas na Praia de Sexta á Domingo das 06:00 as 16:00</p>
+        </div>
+        <div class="container">
+            <a href="index.html" class="grid-4 fadeIndown" data-anime="1000">
+                <img src="img/surfbot-logo.svg" alt="Surfbot" class="header_logo">
+            </a>
+        </div>
+    </header>
+
+    <!-- Fecha Header -->
+
+    <!-- Matricule - Se -->
+
+    <section class="matricule-se fadeIndown" data-anime=1500>
+        <div class="container">
+            <h2>Matricule-Se</h2>
+        </div>
+    </section>
+
+    <!-- Fecha Matricule - Se -->
+
+    <!-- Cadastro -->
+
+    <section class="cadastro container">
+        <div class="dados_matricula grid-8">
+            <form class="informacoes_form">
+                <label class="dados" for="nome">Nome Completo</label>
+                <input class="dados" type="text" id="nome">
+                <label class="dados" for="email">E-mail</label>
+                <input class="dados" type="text" id="email">
+                <label class="dados" for="CPF">CPF</label>
+                <input class="dados" placeholder="000.000.000-00" id="CPF">
+                <label class="endereco_nome grid-4" for="Endereço">Endereço</label>
+                <input class="endereco grid-4" placeholder="Nome, Nº, Bairro" id="Endereço">
+                <label for="CEP">CEP</label>
+                <input class="cep" placeholder="00.000-000" id="CEP" autocomplete="off">
+                <label class="grid-4" for="Cidade">Cidade</label>
+                <input class="cidade grid-4" placeholder="São José dos Campos" id="Cidade">
+                <label class="estado_nome" for="Estado">Estado</label>
+                <input class="estado" placeholder="SP" id="Estado">
+            </form>
+            
+            <div class="dados_pagamento">
+                <h2>Forma de Pagamento</h2>
+                <button type="button" class="btn_cartao">Cartão de Crédito</button>
+                <button type="button" class="btn_boleto">Boleto Bancário</button>
+                <form class="pagamento_form">
+                    <label class="grid-4" for="nome">Nome do Cartão</label>
+                    <input class="cartao grid-4" placeholder="Nome impresso do cartão" id="Nome">
+                    <label for="Data">Data Expiração</label>
+                    <input class="data" placeholder="MM/AA" id="Data">
+                    <label class="grid-4" for="numero">Numero do Cartão</label>
+                    <input class="numero grid-4" placeholder="0000 0000 0000 0000" id="numero">
+                    <label class="codigo_nome" for="codigo">Código de Segurança</label>
+                    <input class="codigo" placeholder="000" id="codigo">
+                </form>
+
+                <p class="cadastro_info"> Seu cartão será debitado em R$ 49,00</p>
+                <button type="button" class="btn_realizar">Realizar Matrícula</button>
+                <p class="cadastro_security">Informações Seguras e Criptografadas </p>
+            </div>
+        </div>    
+        
+        <div class="info_plano grid-8">
+            <p class="escolha">Escolha o plano</p>
+            <button type="button" class="btn_infantil">INFANTIL</button>
+            <button type="button" class="btn_adulto">ADULTO</button>
+            <button type="button" class="btn_profissional">PROFISSIONAL</button>
+
+            <div class="info_aulas" data-slide="info_aulas">
+                <ul class="infantil">
+                    <li><img src="img/infantil.png" alt="infantil" class="img_infantil"></li>
+                    <li class="titulo"><span>Infantil</span></li>
+                    <li class="lista">Público de 5 a 15 anos</li>
+                    <li class="lista">Equipamentos Fornecidos</li>
+                    <li class="lista">Horários de Sexta á Sabado</li>
+                    <li class="lista">2 horas seguidas de Aula</li>
+                    <li class="lista">R$ 49,00/Aula</li>
+                    <li>
+                        <img src="img/elipse.png" alt="Elipse" class="elipse">
+                        <img src="img/elipse.png" alt="Elipse" class="elipse">
+                        <img src="img/elipse.png" alt="Elipse" class="elipse">
+                        <img src="img/elipse.png" alt="Elipse" class="elipse">
+                    </li>
+                </ul>
+                <ul class="adulto">
+                    <li><img src="img/adulto.png" alt="adulto" class="img_adulto"></li>
+                    <li class="titulo"><span>Adulto</span></li>
+                    <li class="lista">Público de 16 a 80 anos</li>
+                    <li class="lista">Equipamentos Fornecidos</li>
+                    <li class="lista">Horários de Sexta á Sabado</li>
+                    <li class="lista">3 horas seguidas de Aula</li>
+                    <li class="lista">R$ 69,00/Aula</li>
+                    <li>
+                        <img src="img/elipse.png" alt="Elipse" class="elipse">
+                        <img src="img/elipse.png" alt="Elipse" class="elipse">
+                        <img src="img/elipse.png" alt="Elipse" class="elipse">
+                        <img src="img/elipse.png" alt="Elipse" class="elipse">
+                    </li>
+                </ul>
+                <ul class="Profissional">
+                    <li><img src="img/profissional.png" alt="profissional" class="img_profissional"></li>
+                    <li class="titulo"><span>Profissional</span></li>
+                    <li class="lista">Experiência de 3 anos</li>
+                    <li class="lista">Trazer os equipamentos</li>
+                    <li class="lista">Horários de Sexta á Sabado</li>
+                    <li class="lista">4 horas seguidas de Aula</li>
+                    <li class="lista">R$ 99,00/Aula</li>
+                    <li>
+                        <img src="img/elipse.png" alt="Elipse" class="elipse">
+                        <img src="img/elipse.png" alt="Elipse" class="elipse">
+                        <img src="img/elipse.png" alt="Elipse" class="elipse">
+                        <img src="img/elipse.png" alt="Elipse" class="elipse">
+                    </li>
+                </ul>
+            </div>
+        </div>   
+    </section>
+
+     <!-- Footer -->
+
+     <footer>
+        <div class="footer">
+            <div class="container">
+                <h2 class="grid-16">Surbot 2021 - @Direitos Reservados</h2>
+                <img src="img/Canvas.png" alt="canvas">
+            </div>
+        </div>
+    </footer> 
+
+    <!-- Fecha Footer -->
+
+     <!--Adicionando JavaScript-->
+
+     <script src="/js/simple-slide.js"></script>
+     <script src="/js/simple-anime.js"></script>
+     <script src="/js/script.js"></script>
+ 
+     <!--Fecha JavaScript-->
+
+
+
+</body>
+</html>
+

@@ -1,0 +1,375 @@
+/* Matricule - Se */
+
+.matricule-se {
+    width:100%;
+    height: 120px;
+    background-color: #eff4f9;
+    padding-top: 250px;
+}
+
+.matricule-se h2 {
+    font-family: Alice;
+    font-size: 72px;
+    text-align: center;
+    font-weight: normal;
+    margin-top: -100px;
+}
+
+/* CADASTRO */ 
+
+.cadastro {
+    padding: 60px 0;
+}
+
+.informacoes_form label {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 25px;
+    margin-bottom: 4px;
+    padding-left: 5px;
+}
+
+.informacoes_form input {
+    display: block;
+    width:440px;
+    height:40px;
+    border-radius:5px;
+    background-color: #eff4f9; 
+    border: 1px solid #45525e;
+    padding: 15px 10px;
+    font-size: 14px;
+    margin-top: 11px;
+    margin-bottom: 13px;
+    font-style: italic;
+}
+
+.informacoes_form .dados {
+    margin-left: 10px;
+}
+
+.informacoes_form .endereco {
+    width: 215px;
+    
+}
+
+.informacoes_form .cep {
+    width: 215px;
+    position: relative;
+    top: 3px;
+}
+
+.informacoes_form .cidade {
+    width: 215px;
+}
+
+.informacoes_form .estado {
+    width: 215px;
+    position: relative;
+    top: 8px;
+}
+
+.informacoes_form .estado_nome {
+    position: relative;
+    top: 3px;
+}
+
+/* Forma de Pagamento */ 
+
+.dados_pagamento {
+    padding: 50px 0;
+}
+
+.dados_pagamento h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color:#1188ee;
+    margin-left: 10px;
+}
+
+.dados_pagamento  h2:after {
+    content: "";
+	display: block;
+	width: 450px; 
+	height: 4px; 
+    margin: 25px 0 25px 0;
+    background: #D3D3D3;
+}
+
+.dados_pagamento .btn_cartao {
+    width:200px;
+    height:45px;
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid #000;
+    background-color:#c3cfd9; 
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.dados_pagamento .btn_boleto {
+    width:200px;
+    height:45px;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #eff4f9;
+    border: 1px solid #000;
+    margin-left: -5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.dados_pagamento button:hover {
+    background-color: #1188ee;
+    color:#000;
+}
+
+/* DADOS PAGAMENTO */ 
+
+.dados_pagamento {
+    padding:30px 0;
+}
+
+.dados_pagamento form {
+    padding: 30px 0;
+}
+
+.dados_pagamento label {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 25px;
+    margin-bottom: 4px;
+}
+
+.dados_pagamento input {
+    display: block;
+    width:450px;
+    height:40px;
+    border-radius:5px;
+    background-color: #eff4f9; 
+    border: 1px solid #45525e;
+    padding: 15px 10px;
+    font-size: 14px;
+    margin-top: 11px;
+    margin-bottom: 13px;
+    font-style: italic;
+}
+
+.dados_pagamento .cartao {
+    width: 215px;
+}
+
+.dados_pagamento .data {
+    width: 215px;
+    position: relative;
+    top: 4px;
+}
+
+.dados_pagamento .numero {
+    width: 215px;
+}
+
+.dados_pagamento .codigo {
+    width: 215px;
+    position: relative;
+    top: 8px;
+}
+
+.dados_pagamento .codigo_nome {
+    position: relative;
+    top: 3px;
+}
+
+.dados_pagamento .pagamento_form::after {
+    content: "";
+	display: block;
+	width: 450px; 
+	height: 4px; 
+    margin: 35px 0 15px 10px;
+    background: #D3D3D3;
+}
+
+.cadastro .cadastro_info {
+    font-size: 18px;
+    font-weight: bold; 
+    margin-top: -10px; 
+    padding-bottom: 30px;
+    color: #1188ee;
+    margin-left: 10px;
+}
+
+.cadastro .btn_realizar {
+    width:230px;
+    height:45px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #1188ee;
+    color: #fff;
+    border: 1px solid #000;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+.cadastro .btn_realizar:hover {
+    background-color: #ee2111;
+}
+
+.cadastro .cadastro_security {
+    font-size: 18px;
+    font-weight: bold; 
+    padding-top: 30px;
+    margin-left: 10px;
+}
+
+.info_plano {
+    width:445px;
+    height: 560px;
+    background-color: #eff4f9;
+}
+
+.info_plano .escolha {
+    font-weight: bold;
+    font-size: 18px;
+    color: #18e;
+    padding-top:15px;
+    padding-left: 20px;
+}
+
+.info_plano button {
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 0;
+}
+
+.info_plano .btn_infantil {
+    width:130px;
+    height:50px;
+    border-radius: 5px 0px 0px 5px;
+    font-size: 14px;
+    background-color:#c3cfd9; 
+}
+
+.info_plano .btn_infantil:hover {
+    background-color: #1188ee;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.info_plano .btn_adulto {
+    width:130px;
+    height:50px;
+    margin-left: -6px;
+    border-radius: 0px;
+    margin-top:-3px;
+    font-size: 14px;
+    background-color: #eff4f9;
+}
+
+.info_plano .btn_adulto:hover {
+    background-color: #1188ee;
+   cursor: pointer;
+   font-weight: bold;
+}
+
+.info_plano .btn_profissional {
+    width:145px;
+    height:50px;
+    margin-left: -6px;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 14px;
+    background-color: #eff4f9;
+}
+
+.info_plano .btn_profissional:hover {
+    background-color: #1188ee;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Info_aulas */ 
+
+
+.info_aulas  {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px rgba(69,82,94, 0.3);
+    height:350px;
+    padding-top: 15px;
+    margin: 60px 60px;
+}
+
+
+.info_aulas .img_infantil {
+   margin-top: -36px;
+   margin-left: 150px;
+   padding-bottom: 30px;
+}
+
+.info_aulas .img_adulto {
+    margin-top: -36px;
+    margin-left: 135px;
+    padding-bottom: 30px;
+}
+
+.info_aulas .img_profissional {
+    margin-top: -36px;
+    margin-left: 125px;
+    padding-bottom: 30px;
+}
+
+.info_aulas .titulo {
+    text-align: center;
+}
+
+.info_aulas span {
+    font-family: Nunito;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #45525e;
+    letter-spacing: 0.05em;  
+    text-align: center;
+}
+
+.info_aulas span:after {
+    content: "";
+	display: block;
+	width: 260px; 
+	height: 4px; 
+    background: #D3D3D3;
+    margin: 15px auto;
+}
+
+.info_aulas .lista {
+    font-family: nunito;
+    line-height: 35px;
+    padding-left: 60px;
+}
+
+.info_aulas li:nth-child(6):after {
+    content: "";
+	display: block;
+	width: 260px; 
+	height: 4px; 
+    background: #D3D3D3;
+    margin: 15px 0 20px -40px;
+}
+
+.info_aulas li:nth-child(7) {
+    font-weight: bold;
+    font-size: 20px;
+    color: #1188ee;
+}
+
+.info_aulas .elipse  {
+    position: relative;
+    padding-top: 27px;
+    top:-228px;
+    left: 30px;
+}
+
+
